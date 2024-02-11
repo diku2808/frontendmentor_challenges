@@ -109,7 +109,7 @@ body{
 .table-row__value{
   /* padding-left: 150px;
   padding-bottom: 20px; */
-  padding: 10px 10px 10px 190px;
+  padding: 10px 10px 10px 150px;
   color: var(--nutmeg-color);
   font-weight: bold;
 }
