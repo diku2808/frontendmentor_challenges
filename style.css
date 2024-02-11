@@ -1,0 +1,116 @@
+/* Importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+
+:root {
+  --nutmeg-color: hsl(14, 45%, 36%);
+  --dark-rasbperry-color: hsl(332, 51%, 32%);
+  --white-color: hsl(0, 0%, 100%);
+  --rose-white-color: hsl(330, 100%, 98%);
+  --eggshell-color: hsl(30, 54%, 90%);
+  --light-grey-color: hsl(30, 18%, 87%);
+  --wenge-brown-color: hsl(30, 10%, 34%);
+  --dark-charcoal-color: hsl(24, 5%, 18%);
+  --main-border-radius: 10px;
+  
+}
+
+*{
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+  padding: 50px;
+  background-color: antiquewhite;
+}
+
+.container{
+  background-color:white;
+  padding: 50px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 30px auto;
+}
+.recipe-image img{
+  border-radius: 10px;
+  width: 100%;
+}
+
+.recipe-introduction h2,.recipe-introduction p,.nutrition-table p {
+  color: var(--wenge-brown-color);
+}
+
+.recipe-preparation-time{
+  background-color: var(--rose-white-color);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.recipe-preparation-time h4{
+  color: purple;
+}
+
+.recipe-preparation-time-list-items{
+  padding: 5px;
+  color: var(--wenge-brown-color);
+}
+
+.recipe-ingredients h3{
+  color: var(--nutmeg-color);
+}
+
+.recipe-ingredients-list-items{
+  padding: 5px;
+  color: var(--wenge-brown-color);
+}
+
+.recipe-instructions h3{
+  color: var(--nutmeg-color);
+}
+
+.recipe-instructions-list-items{
+  padding: 5px;
+  color: var(--wenge-brown-color);
+}
+
+.recipe-preparation-time-list-items::marker{
+  color: purple;
+  font-weight: bold;
+}
+
+
+.recipe-instructions-list-items::marker{
+  color: var(--nutmeg-color);
+  font-weight: bold;
+}
+
+.recipe-ingredients-list-items::marker{
+  color: var(--nutmeg-color);
+  font-weight: bold;
+}
+
+.nutrition-table-table{
+  border-collapse: collapse;
+}
+.table__row{
+  border-bottom: 1px solid grey;
+}
+
+.nutrition-table h3{
+  color: var(--nutmeg-color);
+}
+.table-row__name{
+  /* padding-right: 150px;
+  padding-bottom: 20px;
+  padding: T R B L*/
+  padding: 10px 190px 10px 10px;
+  color: var(--wenge-brown-color);
+}
+
+.table-row__value{
+  /* padding-left: 150px;
+  padding-bottom: 20px; */
+  padding: 10px 10px 10px 190px;
+  color: var(--nutmeg-color);
+  font-weight: bold;
+}
+
